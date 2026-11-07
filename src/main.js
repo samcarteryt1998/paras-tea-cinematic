@@ -153,7 +153,7 @@ let manifest;
 let segments = [];
 let progress = 0;
 let activeSegment = -1;
-let activeSceneIndex = 0;
+let activeSceneIndex = -1;
 let renderRequested = true;
 let lastDrawKey = "";
 let dpr = Math.min(2, window.devicePixelRatio || 1);
